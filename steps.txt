@@ -1,0 +1,48 @@
+1- score Screen (offline) Done
+2- score Screen (online) Done
+3- Main Screen (insert play Button) Done
+4- Main Screen LeaderBoard
+
+
+
+Stack(
+          fit: StackFit.expand,
+          alignment: AlignmentDirectional.center,
+          children: [
+            SvgPicture.asset("assets/icons/bg.svg", fit: BoxFit.fill),
+            Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Container(
+                  width: MediaQuery.of(context).size.width / 1.2,
+                  height: MediaQuery.of(context).size.height / 2,
+                  color: Colors.purple,
+                ),
+              ],
+            ),
+          ],),
+
+
+
+          TextButton(
+                onPressed: () {
+                  if (_isInterstitialAdReady) {
+                    _interstitialAd?.show();
+                    // Get.to(MainMenuPage());
+                    Navigator.pushAndRemoveUntil(
+                      context,
+                      MaterialPageRoute(builder: (context) => MainMenuPage()),
+                      (Route<dynamic> route) => false,
+                    );
+                  } else {
+                    // _moveToHome();
+                    // Get.to(MainMenuPage());
+                    Navigator.pushAndRemoveUntil(
+                      context,
+                      MaterialPageRoute(builder: (context) => MainMenuPage()),
+                      (Route<dynamic> route) => false,
+                    );
+                  }
+                },
+                child: Text('Main'),
+              ),

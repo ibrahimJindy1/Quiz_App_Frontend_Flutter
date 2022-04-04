@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "831687817000",
+    "project_id": "iraqquiz-d3d5c",
+    "storage_bucket": "iraqquiz-d3d5c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:831687817000:android:085634dad7c01c9f94821d",
+        "android_client_info": {
+          "package_name": "com.ij.iraq_quiz_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "831687817000-on12f2hedg4i0lfbi9qqcdfcvcs4aqq1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ij.iraq_quiz_app",
+            "certificate_hash": "91474ac796e1fde59d4d1247da644d2604842ef3"
+          }
+        },
+        {
+          "client_id": "831687817000-n4jqjm58tuul8m2s1q67gith9jjsgq34.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpEMSmU0TiJsPPDbeRIqfsN7dH1vqEgr0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "831687817000-n4jqjm58tuul8m2s1q67gith9jjsgq34.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
